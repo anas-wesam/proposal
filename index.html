@@ -617,8 +617,8 @@
   </div><!-- /pages -->
 
   <!-- Bottom nav -->
-  <div class="bottom-nav">
-    <button class="nav-btn btn-prev hidden" id="prevBtn" onclick="navigate(-1)">
+  <div class="bottom-nav" style="direction:ltr;display:flex;align-items:center;justify-content:space-between;">
+    <button class="nav-btn btn-prev hidden" id="prevBtn" onclick="navigate(-1)" style="display:flex;align-items:center;gap:10px;">
       <div class="btn-icon">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
       </div>
@@ -629,7 +629,7 @@
       <span id="currentPage">1</span> / 6
     </div>
 
-    <button class="nav-btn btn-next" id="nextBtn" onclick="navigate(1)">
+    <button class="nav-btn btn-next" id="nextBtn" onclick="navigate(1)" style="display:flex;align-items:center;gap:10px;">
       <span>Next</span>
       <div class="btn-icon">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
