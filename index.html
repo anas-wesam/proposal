@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -271,6 +271,7 @@
     justify-content: space-between;
     padding: 0 44px;
     background: linear-gradient(to top, var(--cream) 70%, transparent);
+    direction: ltr;
   }
   .nav-btn {
     display: flex;
@@ -312,6 +313,7 @@
 
   /* hidden state for prev on first page */
   .nav-btn.hidden { visibility: hidden; pointer-events: none; }
+  #nextBtn { margin-left: auto; }
 
   /* ─── Ornament ─── */
   .ornament {
